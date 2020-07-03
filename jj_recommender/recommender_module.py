@@ -56,5 +56,5 @@ if __name__ == '__main__':
              'jasmine']
 
     rec = Recommender(ITEMS)
-    result = rec.recommend_random(3)
+    result = rec.recommend_random(5)
     print(result)
